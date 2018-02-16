@@ -1,0 +1,74 @@
+<!-- Merry Caroline Purser -->
+<!-- Portfolio Site -->
+<!-- Home page -->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Merry Purser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" 
+    crossorigin="anonymous">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="home.html">Merry Purser</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="aboutMe.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+      
+    <!-- THE CAROUSEL -->
+      <div class="carousel-container">
+        <div class="myCarousels">
+          <img src="images/me_quilt.jpg">
+        </div>
+      
+        <div class="myCarousels">
+          <img src="images/arduino.jpg">
+        </div>
+      
+        <div class="myCarousels">
+          <img src="images/me_OSU.jpg">
+        </div>
+      
+        <a class="left-btn" onclick="showCarousel(4)">&#10094;</a> 
+        <a class="right-btn" onclick="showCarousel(5)">&#10095;</a>
+      </div> <!-- end carousel-container -->
+      
+      <br>
+      
+      <div class="indicator-div">
+        <span class="indicator" onclick="showCarousel(1)"></span> 
+        <span class="indicator" onclick="showCarousel(2)"></span> 
+        <span class="indicator" onclick="showCarousel(3)"></span> 
+      </div>
+      <!-- END CAROUSEL -->
+        
+        
+        <h1>Merry Purser</h1>
+        
+        <p>
+            I'm Merry Purser, a developer with a passion for learning. <br>
+            Feel free to poke around my site. I hope you like what you find. <br>
+        </p>
+        
+
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
